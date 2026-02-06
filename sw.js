@@ -1,5 +1,5 @@
 const CACHE_NAME = "potato-trader-v1";
-const STATIC_ASSETS = ["/", "/manifest.json"];
+const STATIC_ASSETS = ["./", "./manifest.json"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
